@@ -13,7 +13,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+//asks that the whole application is built
 @SpringBootTest
+//@WebMvcTest could be used for only building the web layer
 @AutoConfigureMockMvc
 public class HelloControllerTest {
 
